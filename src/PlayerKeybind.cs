@@ -40,11 +40,11 @@ public sealed class PlayerKeybind
 
     /// <summary>The UP button. Ignored for controllers.</summary>
     public static readonly PlayerKeybind Up = Register("vanilla:up", "Vanilla", "Up", KeyCode.UpArrow, KeyCode.None);
-    /// <summary>The UP button. Ignored for controllers.</summary>
+    /// <summary>The LEFT button. Ignored for controllers.</summary>
     public static readonly PlayerKeybind Left = Register("vanilla:left", "Vanilla", "Left", KeyCode.LeftArrow, KeyCode.None);
-    /// <summary>The UP button. Ignored for controllers.</summary>
+    /// <summary>The DOWN button. Ignored for controllers.</summary>
     public static readonly PlayerKeybind Down = Register("vanilla:down", "Vanilla", "Down", KeyCode.DownArrow, KeyCode.None);
-    /// <summary>The UP button. Ignored for controllers.</summary>
+    /// <summary>The RIGHT button. Ignored for controllers.</summary>
     public static readonly PlayerKeybind Right = Register("vanilla:right", "Vanilla", "Right", KeyCode.RightArrow, KeyCode.None);
 
     /// <summary>
